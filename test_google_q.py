@@ -1,5 +1,5 @@
 from selene import be, have
-from conftest import *
+from selene.support.shared import browser
 
 
 def test_search_selene():
